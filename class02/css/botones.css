@@ -1,0 +1,41 @@
+body{
+	background-color: #1abc9c;
+}
+
+.btn{
+	/* Color de texto */
+	color: #fff;
+	/*Color de fondo*/
+	background-color: #7f8c8d;
+	/*Texto en negrita?*/
+	font-weight: bold;
+	/*Sangrado interno de un elemento (El elemento crece)*/
+	padding: 15px 40px;
+	/*Border de un elemento*/
+	border: none;
+				/* el grosor, el estilo, y el color */
+	border-bottom: 4px solid rgba(0,0,0,0.5);
+	/*Redondear esquinas*/
+	border-radius: 10px;
+	vertical-align: bottom;
+}
+/*Cuando yo le de click al elemento, va a pasar algo*/
+.btn:active{
+	border: none;
+	margin-top: 2px;
+}
+
+.btn:hover{
+	/*Agrega subrayado*/
+	text-decoration: underline;
+}
+
+.btn-primary{background-color: #2980b9;}
+.btn-success{background-color: #3498db;}
+.btn-warning{background-color: #f39c12;}
+.btn-danger{background-color: #c0392b;}
+
+.btn-xs{font-size: 8px;}
+.btn-sm{font-size: 12px;}
+.btn-lg{font-size: 18px;}
+.btn-xl{font-size: 22px;}

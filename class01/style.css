@@ -1,0 +1,21 @@
+body{
+	/* Cambiar color de fondo */
+	background-color: #e74c3c;
+	/* background-color: yellow; */
+}
+
+.box{
+	/*Ancho de la caja*/
+	width: 100px;
+	/* Alto de la caja */
+	height: 100px;
+	/*Margen arriba*/
+	margin-top: 10px;	
+}
+
+#uno{
+	background-color: purple;
+}
+#dos{
+	background-color: white;
+}
