@@ -1,0 +1,17 @@
+.img-responsive{
+	/*es opcional pero nos ayuda para centarlo, etc*/
+	display: block;
+	/*max-width evitoq ue la imagen no se salga del elemento que la contiene*/
+	max-width: 100%;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+/*para centar horizontalmente bloques, margin 0 auto es para centrar texto verticalmente*/
+.center-block{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}

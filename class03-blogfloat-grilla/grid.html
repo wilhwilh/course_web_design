@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- meta:vp para que los dispositivos reconoscan los media querys-->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- aplcar tema de color -->
+	<meta name="theme-color" content="#f1c40f">
+	<title>Grid System</title>
+	<link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+	<!-- main.container>div.row>article.col.col-4*3>div.box>{box-4} -->
+	<main class="container">
+		<div class="row">
+			<article class="col col-4">
+				<div class="box">box-4</div>
+			</article>
+			<article class="col col-4">
+				<div class="box">box-4</div>
+			</article>
+			<article class="col col-4">
+				<div class="box">box-4</div>
+			</article>
+		</div>
+
+		<div class="row">
+			<article class="col col-6">
+				<div class="box">box-6</div>
+			</article>
+			<article class="col col-6">
+				<div class="box">box-6</div>
+			</article>
+		</div>
+
+		<div class="row">
+			<article class="col col-6 col-offset-6">
+				<div class="box">box-6</div>
+			</article>
+		</div>
+
+		<div class="row">
+			<article class="col col-3">
+				<div class="box">box-3</div>
+			</article>
+			<article class="col col-3">
+				<div class="box">box-3</div>
+			</article>
+			<article class="col col-3">
+				<div class="box">box-3</div>
+			</article>
+			<article class="col col-3">
+				<div class="box">box-3</div>
+			</article>
+		</div>
+
+		<div class="row">
+			<article class="col col-10">
+				<div class="box">box-10</div>
+			</article>
+			<article class="col col-2">
+				<div class="box">box-2</div>
+			</article>
+		</div>
+
+		<div class="row">
+			<article class="col col-12">
+				<div class="box">box-12</div>
+			</article>
+		</div>
+	</main>
+</body>
+</html>
