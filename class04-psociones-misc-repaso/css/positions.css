@@ -1,0 +1,53 @@
+.caja{
+	width: 200px;
+	height: 200px;
+	background-color: #2980b9;
+	border: 10px solid #2c3e50;
+	color: whitesmoke;
+	line-height: 160px;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+#caja1{
+	position: static;
+}
+
+#caja2{
+	position: relative;
+	left: 45%;
+	bottom: 20px;
+	z-index: 3;
+}
+
+#caja3{
+	position: absolute;
+	top: 38%;
+	right: 0;
+	left: 45%;
+	z-index: 2;
+}
+
+#caja4{
+	position: fixed;
+	top: 0;
+	left: 45%;
+	z-index: 1;
+}
+
+#caja5{
+	position: relative;
+	width: 400px;
+	left: 800px;
+}
+
+.caja-peq{
+	width: 60px;
+	height: 60px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
