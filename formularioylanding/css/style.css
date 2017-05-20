@@ -1,0 +1,28 @@
+.navbar-custom{
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: whitesmoke;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	transition: all 400ms ease;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+	color: #e74c3c;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.no-padding > [class*=col-]{
+	padding: 0;
+}
+
+Proyecto Final
+	- Landing Pgecon Framewrok Bootstrap
+	- CSS Personalizado {Agregar colores}
+	- <= 6mb
+	- .zip o .rar
+	- Tema que deseen, cn el contenido que deseen.
+	- * FLAS > COLUMNAS
